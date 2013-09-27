@@ -1,9 +1,10 @@
-Vim configuration and plugins
+Vim configuration and bundles
 =======================================
 
-Plugins
+Bundles
 ---------------------------------------
 - [ctrlp.vim](https://github.com/kien/ctrlp.vim.git)
+- [emmet-vim](https://github.com/mattn/emmet-vim.git)
 - [nerdtree](https://github.com/scrooloose/nerdtree.git)
 - [php.vim](https://github.com/StanAngeloff/php.vim)
 - [powerline](https://github.com/Lokaltog/powerline)
@@ -19,9 +20,3 @@ Plugins
 - [vim-sparkup](https://github.com/tristen/vim-sparkup.git)
 - [vim-symfony](https://github.com/docteurklein/vim-symfony.git)
 - [vim-twig](https://github.com/evidens/vim-twig.git)
-
-
-
-
-
-
