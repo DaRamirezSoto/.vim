@@ -43,9 +43,9 @@ let g:indent_guides_guide_size=1
 let g:syntastic_mode_map={ 'mode':'active',
                          \ 'active_filetypes':['php'],
                          \ 'passive_filetypes':[] }
-let g:vdebug_options = {
-\ 'on_close':'stop',
-\ 'break_on_open':0,
-\ 'continuous_mode': 1, 
-\ 'timeout': 30
-\}
+"let g:vdebug_options = {
+"\ 'on_close':'stop',
+"\ 'break_on_open':0,
+"\ 'continuous_mode': 1, 
+"\ 'timeout': 30
+"\}

@@ -20,3 +20,9 @@ Bundles
 - [vim-sparkup](https://github.com/tristen/vim-sparkup.git)
 - [vim-symfony](https://github.com/docteurklein/vim-symfony.git)
 - [vim-twig](https://github.com/evidens/vim-twig.git)
+
+Installation 
+---------------------------------------
+
+- clone repository to your home directory in linux with `--recursive` flag to automaticly get submodules
+- link the _vimrc to ~/.vimrc and if you using gvim _gvimrc to ~/.gvimrc to enable new configuration
