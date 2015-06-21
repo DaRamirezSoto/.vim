@@ -49,3 +49,6 @@ let g:syntastic_mode_map={ 'mode':'active',
 "\ 'continuous_mode': 1, 
 "\ 'timeout': 30
 "\}
+
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1
