@@ -6,6 +6,7 @@ syntax on
 filetype plugin on
 
 set omnifunc=syntaxcomplete#Complete
+autocmd  FileType  php setlocal omnifunc=phpcomplete_extended#CompletePHP
 set completeopt=menuone,longest
 set number
 set tabstop=4
