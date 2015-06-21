@@ -2,8 +2,6 @@
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 call pathogen#helptags()
-" add powerline
-set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 syntax on
 filetype plugin on
 
