@@ -25,4 +25,6 @@ Installation
 ---------------------------------------
 
 - clone repository to your home directory in linux with `--recursive` flag to automaticly get submodules
+- build the .so for vimproc, go to root fo the bundle and run `make`
 - link the _vimrc to ~/.vimrc and if you using gvim _gvimrc to ~/.gvimrc to enable new configuration
+

@@ -16,7 +16,7 @@ set autoindent
 set expandtab
 
 set listchars=tab:▸\ ,eol:¬
-set cursorline
+" set cursorline
 
 colorscheme molokai 
 
