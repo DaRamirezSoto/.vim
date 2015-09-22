@@ -5,12 +5,13 @@ call pathogen#helptags()
 syntax on
 filetype plugin on
 
-set omnifunc=syntaxcomplete#Complete
-autocmd  FileType  php setlocal omnifunc=phpcomplete_extended#CompletePHP
+" set omnifunc=syntaxcomplete#Complete
+" autocmd  FileType  php setlocal omnifunc=phpcomplete_extended#CompletePHP
+autocmd FileType php setlocal omnifunc=phpcomplete_extended#CompletePHP
 set completeopt=menuone,longest
 set number
-set tabstop=4
-set shiftwidth=4
+set tabstop=3
+set shiftwidth=3
 set smarttab
 set autoindent
 set expandtab
@@ -39,6 +40,7 @@ set nowrap
 let g:NERDTreeWinPos="right"
 let g:indent_guides_start_level=2
 let g:indent_guides_guide_size=1
+let g:phpcomplete_index_composer_command="composer"
 let g:syntastic_mode_map={ 'mode':'active',
                          \ 'active_filetypes':['php'],
                          \ 'passive_filetypes':[] }
