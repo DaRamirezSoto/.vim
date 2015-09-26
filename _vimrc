@@ -6,12 +6,12 @@ syntax on
 filetype plugin on
 
 " set omnifunc=syntaxcomplete#Complete
-" autocmd  FileType  php setlocal omnifunc=phpcomplete_extended#CompletePHP
-autocmd FileType php setlocal omnifunc=phpcomplete_extended#CompletePHP
+" autocmd FileType php setlocal omnifunc=phpcomplete_extended#CompletePHP
+" autocmd FileType php setlocal omnifunc=phpcomplete_extended#CompletePHP
 set completeopt=menuone,longest
 set number
-set tabstop=3
-set shiftwidth=3
+set tabstop=4
+set shiftwidth=4
 set smarttab
 set autoindent
 set expandtab
@@ -37,7 +37,7 @@ set noswapfile
 set nowb
 set nowrap
 
-let g:NERDTreeWinPos="right"
+" let g:NERDTreeWinPos="right"
 let g:indent_guides_start_level=2
 let g:indent_guides_guide_size=1
 let g:phpcomplete_index_composer_command="composer"
@@ -54,3 +54,15 @@ let g:syntastic_mode_map={ 'mode':'active',
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
 let g:airline_theme='powerlineish'
+let g:NERDTreeIndicatorMapCustom = {
+    \ "Modified"  : "✹",
+    \ "Staged"    : "✚",
+    \ "Untracked" : "✭",
+    \ "Renamed"   : "➜",
+    \ "Unmerged"  : "═",
+    \ "Deleted"   : "✖",
+    \ "Dirty"     : "✗",
+    \ "Clean"     : "✔︎",
+    \ "Unknown"   : "?"
+    \ }
+
