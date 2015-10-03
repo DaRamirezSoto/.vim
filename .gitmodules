@@ -61,9 +61,6 @@
 [submodule "bundle/phpcomplete-extended"]
 	path = bundle/phpcomplete-extended
 	url = https://github.com/m2mdas/phpcomplete-extended.git
-[submodule "bundle/vim-hack"]
-	path = bundle/vim-hack
-	url = https://github.com/hhvm/vim-hack.git
 [submodule "bundle/YouCompleteMe"]
 	path = bundle/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe.git
